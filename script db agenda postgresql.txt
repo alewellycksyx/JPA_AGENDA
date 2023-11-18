@@ -1,0 +1,14 @@
+CREATE TABLE contactos (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    correo VARCHAR(100) NOT NULL,
+    telefono VARCHAR(20)NOT NULL
+    
+);
+
+INSERT INTO contactos (nombre, correo, telefono) VALUES
+    ('Juan Pérez', 'juan.perez@example.com', '123-456-7890'),
+    ('María García', 'maria.garcia@example.com', '987-654-3210'),
+    ('Carlos López', 'carlos.lopez@example.com', '555-123-4567'),
+    ('Ana Rodríguez', 'ana.rodriguez@example.com', '789-012-3456'),
+    ('Pedro Martínez', 'pedro.martinez@example.com', '456-789-0123');
